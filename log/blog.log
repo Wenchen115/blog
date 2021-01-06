@@ -1,0 +1,6 @@
+2021-01-06 15:03:39.830  INFO 7924 --- [http-nio-8080-exec-4] com.yb.blog.aspect.LogAspect             : Request: RequestLog{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.yb.blog.web.IndexController.index', args=[]}
+2021-01-06 15:03:39.833  INFO 7924 --- [http-nio-8080-exec-4] com.yb.blog.aspect.LogAspect             : Result:index
+2021-01-06 15:03:41.404  INFO 7924 --- [http-nio-8080-exec-7] com.yb.blog.aspect.LogAspect             : Request: RequestLog{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.yb.blog.web.IndexController.index', args=[]}
+2021-01-06 15:03:41.404  INFO 7924 --- [http-nio-8080-exec-7] com.yb.blog.aspect.LogAspect             : Result:index
+2021-01-06 15:08:24.612  INFO 7924 --- [http-nio-8080-exec-1] com.yb.blog.aspect.LogAspect             : Request: RequestLog{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.yb.blog.web.IndexController.index', args=[]}
+2021-01-06 15:08:24.612  INFO 7924 --- [http-nio-8080-exec-1] com.yb.blog.aspect.LogAspect             : Result:index

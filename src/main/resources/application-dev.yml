@@ -1,0 +1,32 @@
+spring:
+  datasource:
+    name:
+    url: jdbc:mysql://127.0.0.1:3306/blog?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true&serverTimezone=UTC
+    username: root
+    password: password
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+  thymeleaf:
+    #配置模板路径，默认是templates
+    prefix: classpath:/templates/
+    #文件后缀
+    suffix: .html
+    #编码
+    encoding: UTF-8
+    #内容类别
+    content-type: text/html
+    #模板的模式，支持 HTML, XML TEXT JAVASCRIPT
+    mode: HTML
+    #开发时建议设置为false，否则会有缓存，导致页面没法及时看到更新后的效果。
+    cache: false
+
+logging:
+  level:
+    root: info
+    com.yb: debug
+  file:
+    name: log/blog.log
+
